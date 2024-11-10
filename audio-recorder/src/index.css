@@ -1,0 +1,40 @@
+/* Replace @tailwind directives with imports */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Or use these CDN imports */
+/* @import 'https://unpkg.com/tailwindcss@^2/dist/base.css';
+@import 'https://unpkg.com/tailwindcss@^2/dist/components.css';
+@import 'https://unpkg.com/tailwindcss@^2/dist/utilities.css'; */
+
+/* Custom styles can go here */
+.btn-round {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 4px;
+  background-color: white;
+  transition: all 0.2s;
+}
+
+.btn-round:hover {
+  background-color: #f3f4f6;
+}
+
+.btn-mic {
+  color: #1f2937;
+  border-color: #9ca3af;
+}
+
+.btn-stop {
+  color: #dc2626;
+  border-color: #f87171;
+}
+
+.icon-spacing {
+  gap: 1rem;
+}
